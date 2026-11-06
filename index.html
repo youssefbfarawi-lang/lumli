@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>lumli: وقت هاتف الأطفال بهدوء · Kids' screen time, calmly</title>
+<meta name="description" content="lumli helps parents guide their kids' phone time: daily limits, one-tap lock, bedtime and study schedules, and time requests. Privacy first.">
+<link rel="icon" href="icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="landing.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <symbol id="i-clock" viewBox="0 0 24 24"><path d="M6 3h12M6 21h12M7 3c0 5 10 5 10 9s-10 4-10 9M17 3c0 5-10 5-10 9"/></symbol>
+ <symbol id="i-lock" viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></symbol>
+ <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></symbol>
+ <symbol id="i-msg" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></symbol>
+ <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7M18 14.5a6.5 6.5 0 0 1 3.5 5.5"/></symbol>
+ <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></symbol>
+ <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7"/></symbol>
+</svg>
+
+<header class="bar">
+ <div class="wrap">
+  <a href="index.html"><img src="logo.svg" alt="lumli"></a>
+  <nav>
+   <a class="hide-m" href="#features"><span lang="ar">المميزات</span><span lang="en">Features</span></a>
+   <a class="hide-m" href="#how"><span lang="ar">كيف يعمل</span><span lang="en">How it works</span></a>
+   <a class="hide-m" href="#faq"><span lang="ar">أسئلة شائعة</span><span lang="en">FAQ</span></a>
+   <button class="pill" id="lang" type="button"><span lang="ar">English</span><span lang="en">العربية</span></button>
+  </nav>
+ </div>
+</header>
+
+<main>
+<div class="hero">
+ <div class="wrap">
+  <div>
+   <h1 lang="ar">وقت الهاتف،<br>بهدوء</h1>
+   <h1 lang="en">Kids' screen time,<br>calmly</h1>
+   <p lang="ar">lumli يساعد الوالدين على تنظيم وقت هواتف أطفالهم، ويساعد الطفل على إدارة وقته بنفسه. حدود واضحة وطلبات وقت بالحوار، دون مراقبة من خلف ظهره.</p>
+   <p lang="en">lumli helps parents guide their kids' phone time, and helps kids learn to manage it themselves. Clear limits and time requests, without spying behind their back.</p>
+   <div class="cta">
+    <span class="btn lime"><span lang="ar">قريبًا على Google Play</span><span lang="en">Coming soon to Google Play</span></span>
+    <a class="btn ghost" href="mailto:lumli.family@gmail.com"><span lang="ar">تواصل معنا</span><span lang="en">Contact us</span></a>
+   </div>
+  </div>
+  <div class="phones" aria-hidden="true">
+   <div class="phone p1"><img lang="en" src="img/en-parent.png" alt=""><img lang="ar" src="img/ar-settings.png" alt=""></div>
+   <div class="phone p2"><img lang="en" src="img/en-child-page.png" alt=""><img lang="ar" src="img/ar-child.png" alt=""></div>
+  </div>
+ </div>
+</div>
+
+<section id="features">
+ <div class="wrap">
+  <div class="kicker"><span lang="ar">المميزات</span><span lang="en">Features</span></div>
+  <h2 lang="ar">كل ما تحتاجه لتنظيم وقت الهاتف</h2>
+  <h2 lang="en">Everything you need to guide phone time</h2>
+  <p class="lead" lang="ar">من هاتفك أنت، وبخطوات بسيطة. يعمل بالعربية والإنجليزية.</p>
+  <p class="lead" lang="en">From your own phone, in a few simple steps. In Arabic and English.</p>
+  <div class="grid">
+   <div class="card"><div class="ico t1"><svg><use href="#i-clock"/></svg></div>
+    <h3 lang="ar">حدود يومية</h3><h3 lang="en">Daily limits</h3>
+    <p lang="ar">وقت لكل تطبيق أو للهاتف كله. عندما ينتهي الوقت يُغلق التطبيق تلقائيًا، ولنهاية الأسبوع حدود خاصة.</p>
+    <p lang="en">Time for each app or the whole phone. When time is up the app locks on its own, and weekends can have their own limits.</p></div>
+   <div class="card"><div class="ico t2"><svg><use href="#i-lock"/></svg></div>
+    <h3 lang="ar">قفل بلمسة</h3><h3 lang="en">Lock in one tap</h3>
+    <p lang="ar">أغلق هاتف طفلك كله بلمسة واحدة من هاتفك. المكالمات والطوارئ تعمل دائمًا.</p>
+    <p lang="en">Lock your child's whole phone with one tap. Calls and emergency calls always work.</p></div>
+   <div class="card"><div class="ico t3"><svg><use href="#i-moon"/></svg></div>
+    <h3 lang="ar">النوم والمذاكرة</h3><h3 lang="en">Bedtime and study time</h3>
+    <p lang="ar">مواعيد ثابتة كل يوم. في وقت المذاكرة تعمل التطبيقات التي تختارها فقط.</p>
+    <p lang="en">Fixed daily schedules. During study time, only the apps you choose work.</p></div>
+   <div class="card"><div class="ico t4"><svg><use href="#i-msg"/></svg></div>
+    <h3 lang="ar">طلب وقت إضافي</h3><h3 lang="en">Ask for more time</h3>
+    <p lang="ar">يطلب الطفل وقتًا إضافيًا ويكتب السبب، فيصلك إشعار وتوافق أو ترفض من مكانك.</p>
+    <p lang="en">Your child asks for more time and says why. You get a notification and answer from anywhere.</p></div>
+   <div class="card"><div class="ico t5"><svg><use href="#i-users"/></svg></div>
+    <h3 lang="ar">الأب والأم معًا</h3><h3 lang="en">Mom and Dad together</h3>
+    <p lang="ar">يتابع الوالدان الأطفال أنفسهم، ويستطيع أيٌّ منهما الرد على الطلبات.</p>
+    <p lang="en">Both parents follow the same kids, and either one can answer requests.</p></div>
+   <div class="card"><div class="ico t6"><svg><use href="#i-shield"/></svg></div>
+    <h3 lang="ar">حماية من التلاعب</h3><h3 lang="en">Tamper protection</h3>
+    <p lang="ar">لا يستطيع الطفل حذف lumli أو إيقافه أو تغيير الساعة للحصول على وقت إضافي دون علمك.</p>
+    <p lang="en">Your child can't delete or stop lumli, or change the clock to get more time, without you knowing.</p></div>
+  </div>
+ </div>
+</section>
+
+<section id="how" style="padding-top:0">
+ <div class="wrap">
+  <div class="kicker"><span lang="ar">كيف يعمل</span><span lang="en">How it works</span></div>
+  <h2 lang="ar">جاهز في ثلاث خطوات</h2>
+  <h2 lang="en">Ready in three steps</h2>
+  <div class="steps" style="margin-top:28px">
+   <div class="step"><b>1</b>
+    <h3 lang="ar">ثبّت lumli على هاتفك</h3><h3 lang="en">Install lumli on your phone</h3>
+    <p lang="ar">أنشئ حساب ولي الأمر في دقيقة.</p><p lang="en">Create your parent account in a minute.</p></div>
+   <div class="step"><b>2</b>
+    <h3 lang="ar">أضف طفلك</h3><h3 lang="en">Add your child</h3>
+    <p lang="ar">يظهر لك رمز من 6 أرقام لربط هاتفه.</p><p lang="en">You get a 6-digit code to link their phone.</p></div>
+   <div class="step"><b>3</b>
+    <h3 lang="ar">جهّز هاتف الطفل</h3><h3 lang="en">Set up your child's phone</h3>
+    <p lang="ar">اكتب الرمز، ثم فعّل الصلاحيات بمساعدة دليل مرسوم يوضح كل خطوة.</p><p lang="en">Enter the code, then turn on permissions with an illustrated guide for every step.</p></div>
+  </div>
+ </div>
+</section>
+
+<section style="padding-top:0">
+ <div class="wrap">
+  <div class="privacy">
+   <h2 lang="ar">الخصوصية أولًا</h2><h2 lang="en">Privacy first</h2>
+   <p class="lead" style="color:#C9D8D6" lang="ar">نراقب الوقت، لا الأسرار.</p>
+   <p class="lead" style="color:#C9D8D6" lang="en">We care about time, not secrets.</p>
+   <ul>
+    <li><svg><use href="#i-check"/></svg><span lang="ar">الطفل يعرف دائمًا ما يراه والداه بالضبط.</span><span lang="en">Your child always knows exactly what you can see.</span></li>
+    <li><svg><use href="#i-check"/></svg><span lang="ar">لا نقرأ الرسائل ولا الصور ولا المكالمات.</span><span lang="en">We never read messages, photos or calls.</span></li>
+    <li><svg><use href="#i-check"/></svg><span lang="ar">الموقع عند طلبك فقط، ويصل الطفل إشعار.</span><span lang="en">Location only when you ask, and your child is notified.</span></li>
+    <li><svg><use href="#i-check"/></svg><span lang="ar">حذف تلقائي: الاستخدام بعد 90 يومًا والموقع بعد 7 أيام.</span><span lang="en">Auto-delete: usage after 90 days, location after 7 days.</span></li>
+    <li><svg><use href="#i-check"/></svg><span lang="ar">لا إعلانات ولا بيع للبيانات.</span><span lang="en">No ads, and we never sell data.</span></li>
+    <li><svg><use href="#i-check"/></svg><span lang="ar">تحذف حسابك وبياناتك متى شئت.</span><span lang="en">Delete your account and data anytime.</span></li>
+   </ul>
+  </div>
+ </div>
+</section>
+
+<section style="padding-top:0">
+ <div class="wrap">
+  <div class="kicker"><span lang="ar">من التطبيق</span><span lang="en">Inside the app</span></div>
+  <h2 lang="ar">بسيط وواضح</h2><h2 lang="en">Simple and clear</h2>
+  <div class="shots" style="margin-top:28px">
+   <div class="phone" lang="en"><img src="img/en-parent.png" alt="Parent home screen"></div>
+   <div class="phone" lang="en"><img src="img/en-child-page.png" alt="Child page with location, report and tips"></div>
+   <div class="phone" lang="en"><img src="img/en-lock.png" alt="Lock screen with a request button"></div>
+   <div class="phone" lang="ar"><img src="img/ar-settings.png" alt="إعدادات جهاز الطفل"></div>
+   <div class="phone" lang="ar"><img src="img/ar-child.png" alt="شاشة الطفل"></div>
+   <div class="phone" lang="ar"><img src="img/ar-guide.png" alt="دليل مرسوم لتفعيل الصلاحيات"></div>
+  </div>
+ </div>
+</section>
+
+<section id="faq" style="padding-top:0">
+ <div class="wrap faq">
+  <div class="kicker"><span lang="ar">أسئلة شائعة</span><span lang="en">FAQ</span></div>
+  <h2 lang="ar">أسئلة شائعة</h2><h2 lang="en">Questions</h2>
+  <details><summary><span lang="ar">هل التطبيق مجاني؟</span><span lang="en">Is it free?</span></summary>
+   <p lang="ar">نعم، النسخة الأولى مجانية بالكامل.</p><p lang="en">Yes, the first version is completely free.</p></details>
+  <details><summary><span lang="ar">على أي هواتف يعمل؟</span><span lang="en">Which phones does it work on?</span></summary>
+   <p lang="ar">على هواتف وأجهزة أندرويد اللوحية (أندرويد 8 أو أحدث)، لهاتف ولي الأمر وهاتف الطفل.</p><p lang="en">Android phones and tablets (Android 8 or newer), for both the parent and the child.</p></details>
+  <details><summary><span lang="ar">هل يقرأ lumli رسائل طفلي؟</span><span lang="en">Does lumli read my child's messages?</span></summary>
+   <p lang="ar">لا. نعرف أسماء التطبيقات والوقت عليها فقط، وأسماء فيديوهات يوتيوب والمواقع إذا فعّلت ذلك.</p><p lang="en">No. We only see app names and the time spent on them, plus YouTube titles and websites if you turn that on.</p></details>
+  <details><summary><span lang="ar">كيف أحذف حسابي؟</span><span lang="en">How do I delete my account?</span></summary>
+   <p lang="ar">من الإعدادات داخل التطبيق، أو من <a href="delete.html">صفحة حذف الحساب</a>.</p><p lang="en">From Settings in the app, or from the <a href="delete.html">account deletion page</a>.</p></details>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="wrap">
+  <div>
+   <img src="logo.svg" alt="lumli">
+   <small lang="ar">وقت الهاتف، بهدوء.</small><small lang="en">Kids' screen time, calmly.</small>
+  </div>
+  <div class="links">
+   <a href="privacy.html"><span lang="ar">سياسة الخصوصية</span><span lang="en">Privacy policy</span></a>
+   <a href="delete.html"><span lang="ar">حذف الحساب والبيانات</span><span lang="en">Delete account and data</span></a>
+   <a href="mailto:lumli.family@gmail.com">lumli.family@gmail.com</a>
+  </div>
+  <small style="width:100%">© 2026 lumli</small>
+ </div>
+</footer>
+
+<script>
+(function(){
+ var q=new URLSearchParams(location.search).get('lang');
+ var saved=null;try{saved=localStorage.getItem('lumli-lang')}catch(e){}
+ var en=q?q==='en':saved?saved==='en':!(navigator.language||'').toLowerCase().startsWith('ar');
+ function apply(){document.body.classList.toggle('en',en);document.documentElement.lang=en?'en':'ar';document.documentElement.dir=en?'ltr':'rtl'}
+ apply();
+ document.getElementById('lang').addEventListener('click',function(){en=!en;try{localStorage.setItem('lumli-lang',en?'en':'ar')}catch(e){}apply()});
+})();
+</script>
+</body>
+</html>
